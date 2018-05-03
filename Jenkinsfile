@@ -1,5 +1,5 @@
 node {
-  def project = 'CICD-Pipeline-Demo'
+  def project = 'sample-app'
   def appName = 'gceme'
   def feSvcName = "${appName}-frontend"
   def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
